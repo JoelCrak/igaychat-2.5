@@ -1,0 +1,21 @@
+{
+  "name": "sass-edition",
+  "version": "1.0.0",
+  "description": "gulp project",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.1",
+    "gulp-watch": "^5.0.1",
+    "sass": "^1.39.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch assets/sass -o css"
+  },
+  "author": "dcastillo",
+  "license": "ISC"
+}
